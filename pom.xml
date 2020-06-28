@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.itau</groupId>
-	<artifactId>cat-api</artifactId>
+	<artifactId>cat-breeds-list-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cat-api</name>
-	<description>Demo project for Spring Boot</description>
+	<description>API para listar raças</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -26,6 +26,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 
 		<dependency>
